@@ -1,0 +1,82 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./components/AppBanner/styles.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.app-banner {
+  max-width: 1196px;
+  height: 312px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DBEAFE;
+  border: 1px solid #BFDBFE;
+  border-radius: 16px;
+  padding: 0 48px 0 51px;
+  gap: 60px;
+  font-family: "Roboto", sans-serif;
+}
+.app-banner__left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.app-banner__left .app-banner__qr {
+  width: 110px;
+  height: 110px;
+}
+.app-banner__left .app-banner__store-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.app-banner__left .app-banner__store-buttons img {
+  width: 160px;
+  cursor: pointer;
+}
+.app-banner__center {
+  position: relative;
+}
+.app-banner__center .app-banner__phone {
+  height: 340px;
+  z-index: 1;
+  bottom: 14px;
+  position: relative;
+}
+.app-banner__center .app-banner__rlogo {
+  position: absolute;
+  bottom: 20px;
+  right: -20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 16px;
+  z-index: 2;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.app-banner__right {
+  max-width: 459px;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  text-align: right;
+}
+.app-banner__right .app-banner__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #175cd3;
+  margin-bottom: 16px;
+}
+.app-banner__right .app-banner__text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  margin-bottom: 20px;
+}
+.app-banner__right .app-banner__more {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1c1c1c;
+  text-decoration: none;
+}
+.app-banner__right .app-banner__more:hover {
+  text-decoration: underline;
+}
